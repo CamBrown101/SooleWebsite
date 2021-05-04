@@ -71,7 +71,6 @@ const SlideWrapper = styled.div`
     font-family: "Quentin", sans-serif;
     color: #b09a7f;
     font-size: 52px;
-    line-height: 42px;
     text-align: center;
   }
   .slide-container {
