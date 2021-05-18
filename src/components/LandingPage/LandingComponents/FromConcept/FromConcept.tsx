@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import imageComp from "../../../../images/composition.png";
 
 const FromConcept = () => {
   return (
@@ -7,6 +8,11 @@ const FromConcept = () => {
       <FromBrandInnerContainer>
         <Titles>
           <h2 className="title-one">FROM CONCEPT</h2>
+          <img
+            className="comp-image"
+            src={imageComp}
+            alt="Computer scrren, bottle and package"
+          />
           <h2 className="title-two">TO CONSUMER</h2>
         </Titles>
         <h3>
@@ -56,11 +62,12 @@ const FromConcept = () => {
 export default FromConcept;
 
 const FromBrandContainer = styled.section`
-  /* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&display=swap"); */
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
   h3 {
     color: #b09a7f;
     font-size: 38px;
@@ -79,7 +86,7 @@ const FromBrandInnerContainer = styled.div`
 
 const Titles = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   .title-one {
     text-align: right;
@@ -87,9 +94,13 @@ const Titles = styled.div`
     font-size: 45px;
   }
   .title-two {
-    margin-left: 200px;
+    margin-left: 2%;
     margin-top: 100px;
     font-size: 45px;
+  }
+  .comp-image {
+    height: 300px;
+    margin-left: 2%;
   }
 `;
 
