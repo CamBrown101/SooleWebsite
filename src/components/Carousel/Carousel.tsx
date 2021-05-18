@@ -98,6 +98,7 @@ const ButtonContainer = styled.div`
 `;
 
 const CarouselContainer = styled.div`
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   background-color: black;
