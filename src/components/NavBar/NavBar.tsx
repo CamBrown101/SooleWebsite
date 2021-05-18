@@ -27,13 +27,12 @@ const NavBar = () => {
               How We Work
             </NavLink>
           </div>
-          <NavLink
+          <a
             className="nav-menu-item"
             id="nav-menu-evolve-with-us"
-            exact
-            to="https://forms.gle/ZaZhfMSeV9QxgnNcA">
+            href="https://forms.gle/ZaZhfMSeV9QxgnNcA">
             Evolve With Us
-          </NavLink>
+          </a>
         </div>
       </NavBarWrapper>
     </NavBarContainer>
