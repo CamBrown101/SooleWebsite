@@ -1,31 +1,18 @@
-// HOW WE WORK
-
-// WE CREATE A PLATFORM AND STRATEGY SO YOU CAN FOCUS ON THE OPERATIONS OF YOUR BUSINESS
-
-// Full website redesign and development
-
-// eCommerce store development
-
-// Marketing services including content creation and social media strategy
-
-// GROW WITH US – Link to Google Form
-
 import React from "react";
 import styled from "styled-components";
+import Header from "./HowWeWorkComponents/Header";
+import Options from "./HowWeWorkComponents/Options";
 import Footer from "../Footer/Footer";
 
-const WhyAcclamation = () => {
+const HowWeWork = () => {
   return (
-    <WhyAcclamationWrapper>
+    <HowWeWorkWrapper>
+      <Header />
+      <Options />
       <Footer />
-    </WhyAcclamationWrapper>
+    </HowWeWorkWrapper>
   );
 };
+export default HowWeWork;
 
-export default WhyAcclamation;
-
-const WhyAcclamationWrapper = styled.main`
-  h1 {
-    margin: 0;
-  }
-`;
+const HowWeWorkWrapper = styled.main``;
